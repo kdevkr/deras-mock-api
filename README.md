@@ -1,6 +1,7 @@
 # KPX DERAS Mock API
 
-[DERAs(Distributed Energy Resource Aggregators) API](https://www.kpx.or.kr/boardDownload.es?bid=0048&list_no=69006&seq=1) require allowed IP from KPX. Test with mocking API when external API cannot be called.
+[DERAs(Distributed Energy Resource Aggregators) API](https://www.kpx.or.kr/boardDownload.es?bid=0048&list_no=69006&seq=1) require allowed IP from KPX.  
+Test with mocking API when external API cannot be called.
 
 ## Requirement
 
