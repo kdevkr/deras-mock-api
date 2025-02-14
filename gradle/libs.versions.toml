@@ -1,0 +1,10 @@
+[versions]
+kotest = "5.9.1"
+kotest-wiremock = "3.1.0"
+wiremock = "3.12.0"
+
+[libraries]
+kotest-runner-junit5 = { group = "io.kotest", name = "kotest-runner-junit5-jvm", version.ref = "kotest" }
+kotest-assertions-core = { group = "io.kotest", name = "kotest-assertions-core-jvm", version.ref = "kotest" }
+kotest-extensions-wiremock = { group = "io.kotest.extensions", name = "kotest-extensions-wiremock", version.ref = "kotest-wiremock" }
+wiremock = { group = "org.wiremock", name = "wiremock-standalone", version.ref = "wiremock" }
